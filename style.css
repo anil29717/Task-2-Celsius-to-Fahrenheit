@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  flex: 1;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  flex: 2;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  flex: 1;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 20px;
+}
+
+/* Celsius and Fahrenheit scales */
+.scales-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.scales-container .scale {
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+}
+
+.scales-container .scale .mark {
+  height: 2px;
+  background-color: #ccc;
+  margin-top: 5px;
+}
+
+.scales-container .scale .temperature {
+  margin-top: 5px;
+}
+
+/* Celsius scale specific styles */
+#celsiusScale .mark {
+  width: 2px;
+  background-color: #ccc;
+  height: 20px;
+}
+
+#celsiusScale .temperature {
+  margin-top: 10px;
+}
+
+/* Logo styles */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+}
